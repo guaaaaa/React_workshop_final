@@ -7,7 +7,6 @@ export default function Home() {
         <h1 className="text-5xl p-2 m-4">Home Page</h1>
         <Link className="border-2 p-2 m-4" href="/counter">Counter</Link>
         <Link className="border-2 p-2 m-4" href="/exchange">Exchange App</Link>
-        <Link className="border-2 p-2 m-4" href="/password-generator">Password Generator</Link>
       </div>
     </div>
   );
