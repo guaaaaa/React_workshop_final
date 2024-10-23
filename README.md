@@ -2,10 +2,11 @@
 This repo contains all the resources we used during the frontend workshop for IEEE Newhacks 2024
 
 We build the following Apps as Milestones
-Milestone 1: A counter in HTML (Only the structure, the counter does not work!)
-Milestone 2: Counter using React and style it using Tailwind CSS
-Milestone 3: Exchange rate App by fetching API
-Milestone 4: A password strength checker
+
+* Milestone 1: A counter in HTML (Only the structure, the counter does not work!)
+* Milestone 2: Counter using React and style it using Tailwind CSS
+* Milestone 3: Exchange rate App by fetching API
+* Milestone 4: A password strength checker
 
 
 ## 1. Setup
@@ -31,6 +32,7 @@ To navigate to the `master` branch, run `git checkout master`
 
 ### The `HTML` branch
 The `HTML` branch only contains an HTML file. You should see the following page after opening it.
+
 Technically, the `workshop/my-project` directory still exists, but you do not need to worry about it at all
 
 <img width="1200" alt="Screenshot 2024-10-23 at 16 52 08" src="https://github.com/user-attachments/assets/d7a82251-5516-4b27-b11c-e1bc23bd4bc8">
@@ -52,6 +54,7 @@ The `exchange` branch contains a home page, the counter App and the exchange rat
 <img width="811" alt="Screenshot 2024-10-23 at 17 02 36" src="https://github.com/user-attachments/assets/7cb3478f-62bf-4dc5-a552-d19da7f775f0">
 
 The API used for the exchange rate App is from - https://manage.exchangeratesapi.io
+
 Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!! Otherwise, the App may fail if the given API access key limit is reached
 
 To navigate to the `exchange` branch, run `git checkout exchange`
