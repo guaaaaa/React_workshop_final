@@ -41,7 +41,7 @@ To navigate to the `HTML` branch, run `git checkout HTML`
 ### The `counter` branch
 The `counter` branch contains the counter App. If you run `npm run dev`, you should see the following page. You can play around with the counter!
 
-<img width="811" alt="Screenshot 2024-10-23 at 17 02 36" src="https://github.com/user-attachments/assets/7cb3478f-62bf-4dc5-a552-d19da7f775f0">
+<img width="897" alt="Screenshot 2024-10-23 at 17 06 21" src="https://github.com/user-attachments/assets/33897b59-59c0-4565-83f4-473e1298e94c">
 
 To navigate to the `counter` branch, run `git checkout counter`
 
@@ -49,10 +49,10 @@ To navigate to the `counter` branch, run `git checkout counter`
 ### The `exchange` branch
 The `exchange` branch contains a home page, the counter App and the exchange rate App. If you run `npm run dev`, you should see the following page, and you should be able to navigate around the Apps and the home page
 
-<img width="1200" alt="Screenshot 2024-10-23 at 16 52 08" src="https://github.com/user-attachments/assets/d7a82251-5516-4b27-b11c-e1bc23bd4bc8">
+<img width="811" alt="Screenshot 2024-10-23 at 17 02 36" src="https://github.com/user-attachments/assets/7cb3478f-62bf-4dc5-a552-d19da7f775f0">
 
 The API used for the exchange rate App is from - https://manage.exchangeratesapi.io
-Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!!
+Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!! Otherwise, the App may fail if the given API access key limit is reached
 
 To navigate to the `exchange` branch, run `git checkout exchange`
 
