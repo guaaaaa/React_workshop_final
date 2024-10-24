@@ -13,11 +13,9 @@ We build the following Apps as Milestones
 1. Create a new folder on your laptop
 2. `cd` into the new folder
 3. Run `git clone https://github.com/guaaaaa/React_workshop_final.git`
-4. Run `cd Reac_workshop_final`
-5. Run `cd workshop`
-6. Run `cd my-project`
-7. Run `npm install`
-8. Run `npm run dev`. You should be able to see the App at http://localhost:3000 after running this command
+4. Run `cd Reac_workshop_final/workshop/my-project`
+5. Run `npm install`
+6. Run `npm run dev`. You should be able to see the App at http://localhost:3000 after running this command
 
 ## 2. Repo structure
 The repository has four branches - `master`, `HTML`, `counter`, `exchange`, and `password`. Each branch corresponds to a milestone for the workshop
